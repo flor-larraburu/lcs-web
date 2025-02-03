@@ -3,19 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff;
+  --foreground: #233462;
+  --primary: #233462;
+  --secondary: #7387B5;
+  --accent: #CA819E;
+  --text: #4A4A4A;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply text-[#4A4A4A] bg-white;
+    font-family: 'Montserrat', Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#233462] font-serif;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .nav-link {
+    @apply text-[#DBDEE8] hover:text-[#CA819E] transition-colors duration-300;
+  }
+
+  .primary-button {
+    @apply inline-block px-8 py-4 bg-[#233462] text-white rounded-full 
+           font-medium hover:bg-[#CA819E] transition-colors duration-300;
+  }
+
+  .container-padding {
+    @apply px-8 md:px-12 lg:px-16;
+  }
+}
+
+.header-shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
