@@ -3,40 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --background: #fff;
-  --foreground: #233462;
   --primary: #233462;
-  --secondary: #7387B5;
   --accent: #CA819E;
-  --text: #4A4A4A;
+  --light: #F8F9FA;
+  --text-color: #2C3E50;
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply text-[#4A4A4A] bg-white;
-    font-family: 'Montserrat', Arial, sans-serif;
+    @apply text-gray-800 antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-[#233462] font-serif;
+    @apply text-primary;
   }
 }
 
 @layer components {
-  .nav-link {
-    @apply text-[#DBDEE8] hover:text-[#CA819E] transition-colors duration-300;
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 
+           bg-accent text-white font-medium rounded-full
+           hover:bg-primary transition-colors duration-300
+           focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent;
   }
 
-  .primary-button {
-    @apply inline-block px-8 py-4 bg-[#233462] text-white rounded-full 
-           font-medium hover:bg-[#CA819E] transition-colors duration-300;
+  .input-primary {
+    @apply w-full px-4 py-3 rounded-lg border border-gray-300
+           focus:border-accent focus:ring-1 focus:ring-accent
+           outline-none transition duration-200;
   }
 
-  .container-padding {
-    @apply px-8 md:px-12 lg:px-16;
+  .bg-overlay {
+    @apply bg-black bg-opacity-50;
   }
 }
 
-.header-shadow {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+/* Performance Optimizations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.h-screen-90 {
+  height: 90vh;
+}
+
+/* Print styles */
+@media print {
+  .btn-primary {
+    @apply border border-accent text-accent bg-transparent;
+  }
 }
