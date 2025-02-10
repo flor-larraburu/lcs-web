@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "title": "La Casita de Sabino",
+    "menu": {
+      "carta": "Menu",
+      "vinos": "Wines",
+      "nuestraHistoria": "Our Story",
+      "contacto": "Contact"
+    }
+  },
+  "home": {
+    "title": "The essence of the Cantabrian Sea in Valencia",
+    "description": "Fresh fish and seafood selected daily from the best northern markets",
+    "reserve": "Reserve a table"
+  },
+  "specialties": {
+    "title": "Our Specialties",
+    "specialties": ["Wild fish", "Fresh seafood", "Traditional recipes"],
+    "description": "Daily selection of top-quality products"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "Since 1995, La Casita de Sabino has brought the best of the Cantabrian Sea to Valencia. Our passion for fresh produce and traditional cuisine has made us a benchmark for seafood gastronomy in the Valencian Community.",
+    "button": "Discover our story"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "description": "Discover our selection of fresh fish and seafood of the day, prepared with the respect that Cantabrian products deserve.",
+    "button": "View menu"
+  },
+  "wines": {
+    "title": "Wine Selection",
+    "description": "A curated list of national and international wines, selected to perfectly pair with our dishes.",
+    "button": "View wines"
+  },
+  "pickup": {
+    "title": "Pickup Orders",
+    "description": "Enjoy our dishes at home. We offer pickup orders from Wednesday to Sunday.",
+    "steps": [
+      { "text": "Place your order in advance", "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" },
+      { "text": "Pick it up at your preferred time", "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { "text": "Pay upon pickup", "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" }
+    ],
+    "button": "Place order"
+  },
+  "reserve": {
+    "title": "Reserve your table",
+    "name": "Name",
+    "phone": "Phone",
+    "people": "Number of people",
+    "persons": "people",
+    "button": "Confirm reservation"
+  },
+  "contact": {
+    "title": "Location",
+    "address": "Example Street 123",
+    "city": "46001 Valencia",
+    "phone": "Phone"
+  }
+}

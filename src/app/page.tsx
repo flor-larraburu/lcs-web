@@ -6,6 +6,7 @@ import Footer from "./common/footer";
 import { ReactNode, useEffect, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import ReservationForm from "./components/booking";
 
 interface CustomIconProps {
   children: ReactNode;
@@ -50,6 +51,7 @@ interface Translation {
   contactPhone: string;
 }
 
+
 export const translations = {
   es: {
     title: "La esencia del Cantábrico en Valencia",
@@ -82,8 +84,8 @@ export const translations = {
     reservePersons: "personas",
     reserveButton: "Confirmar reserva",
     contactTitle: "Ubicación",
-    contactAddress: "Calle Ejemplo 123",
-    contactCity: "46001 Valencia",
+    contactAddress: "C/ Erudito Gregorio Manyans 5",
+    contactCity: "46500 Valencia",
     contactPhone: "Teléfono",
   },
   en: {
@@ -117,8 +119,8 @@ export const translations = {
     reservePersons: "people",
     reserveButton: "Confirm reservation",
     contactTitle: "Location",
-    contactAddress: "Example Street 123",
-    contactCity: "46001 Valencia",
+    contactAddress: "C/ Erudito Gregorio Manyans 5",
+    contactCity: "46500 Valencia",
     contactPhone: "Phone",
   },
   ca: {
@@ -152,11 +154,13 @@ export const translations = {
     reservePersons: "persones",
     reserveButton: "Confirmar reserva",
     contactTitle: "Ubicació",
-    contactAddress: "Carrer Exemple 123",
-    contactCity: "46001 València",
+    contactAddress: "C/ Erudito Gregorio Manyans 5",
+    contactCity: "46500 València",
     contactPhone: "Telèfon",
   },
 };
+
+
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [language, setLanguage] = useState<keyof typeof translations>("es");
@@ -185,6 +189,8 @@ export default function Home() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+
 
   return (
     <>
@@ -363,34 +369,8 @@ export default function Home() {
   </div>
 </section>
 
-{/* Reservas Section */}
-<section id="reservar" className="py-20 bg-light">
-  <div className="container mx-auto px-4">
-    <h2 className="font-serif text-3xl md:text-4xl text-primary text-center mb-12">
-      {translations[language].reserveTitle}
-    </h2>
-    <div className="max-w-xl mx-auto">
-      <form className="space-y-6">
-        <div className="grid md:grid-cols-2 gap-6">
-          <input type="text" placeholder={translations[language].reserveName} className="input-primary" required />
-          <input type="tel" placeholder={translations[language].reservePhone} className="input-primary" required />
-        </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          <input type="date" className="input-primary" required />
-          <select className="input-primary" required>
-            <option value="">{translations[language].reservePeople}</option>
-            {[1,2,3,4,5,6,7,8].map(num => (
-              <option key={num} value={num}>{num} {translations[language].reservePersons}</option>
-            ))}
-          </select>
-        </div>
-        <button type="submit" className="btn-primary w-full">
-          {translations[language].reserveButton}
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
+<ReservationForm translations={translations} language={language} />
+
 
 
        {/* Contacto Section */}
@@ -407,7 +387,7 @@ export default function Home() {
           <p>
             {translations[language].contactPhone}: 
             <a href="tel:+34123456789" className="hover:text-accent">
-              +34 123 456 789
+              +34 963 74 39 99
             </a>
           </p>
         </address>

@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "title": "La esencia del Cantábrico en Valencia",
+    "menu": {
+      "carta": "Carta",
+      "vinos": "Vinos",
+      "nuestraHistoria": "Nuestra historia",
+      "contacto": "Contacto",
+      "reserve": "Reservar mesa"
+    },
+    "languageSelector": {
+      "es": "Español",
+      "en": "English",
+      "ca": "Català"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Ubicación",
+      "address": "Calle Ejemplo 123",
+      "city": "46001 Valencia",
+      "phone": "Teléfono"
+    },
+    "reserve": {
+      "title": "Reserva tu mesa",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "people": "Número de personas",
+      "persons": "personas",
+      "button": "Confirmar reserva"
+    }
+  },
+  "home": {
+    "description": "Pescados y mariscos frescos seleccionados diariamente de las mejores lonjas del norte",
+    "specialtiesTitle": "Nuestras Especialidades",
+    "specialties": [
+      "Pescados salvajes",
+      "Mariscos frescos",
+      "Recetas tradicionales"
+    ],
+    "specialtiesDescription": "Selección diaria de productos de máxima calidad",
+    "aboutTitle": "Conócenos",
+    "aboutText": "Desde 1995, La Casita de Sabino trae lo mejor del mar Cantábrico a Valencia. Nuestra pasión por el producto fresco y la cocina tradicional nos ha convertido en un referente de la gastronomía marinera en la Comunidad Valenciana.",
+    "aboutButton": "Descubre nuestra historia",
+    "menuTitle": "Nuestra Carta",
+    "menuDescription": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
+    "menuButton": "Ver carta",
+    "winesTitle": "Selección de Vinos",
+    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
+    "winesButton": "Ver vinos",
+    "pickupTitle": "Pedidos para Recoger",
+    "pickupDescription": "Disfruta de nuestros platos en casa. Realizamos pedidos para recoger de miércoles a domingo.",
+    "pickupSteps": [
+      {
+        "text": "Realiza tu pedido con antelación",
+        "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+      },
+      {
+        "text": "Recógelo a la hora que prefieras",
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+      },
+      {
+        "text": "Pago al recoger",
+        "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+      }
+    ],
+    "pickupButton": "Hacer pedido"
+  }
+}

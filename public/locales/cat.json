@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "title": "Restaurant",
+    "menu": {
+      "carta": "Carta",
+      "vinos": "Vins",
+      "nuestraHistoria": "La nostra història",
+      "contacto": "Contacte"
+    }
+  },
+  "home": {
+    "title": "L'essència del Cantàbric a València",
+    "description": "Peix i marisc fresc seleccionat diàriament dels millors mercats del nord",
+    "reserve": "Reserva taula"
+  },
+  "specialties": {
+    "title": "Les nostres especialitats",
+    "specialties": ["Peixos salvatges", "Marisc fresc", "Receptes tradicionals"],
+    "description": "Selecció diària de productes de màxima qualitat"
+  },
+  "about": {
+    "title": "Coneix-nos",
+    "text": "Des de 1995, La Casita de Sabino porta el millor del mar Cantàbric a València. La nostra passió pel producte fresc i la cuina tradicional ens ha convertit en un referent de la gastronomia marinera a la Comunitat Valenciana.",
+    "button": "Descobreix la nostra història"
+  },
+  "menu": {
+    "title": "La nostra carta",
+    "description": "Descobreix la nostra selecció de peixos i marisc fresc del dia, preparats amb el respecte que mereix el producte del Cantàbric.",
+    "button": "Veure carta"
+  },
+  "wines": {
+    "title": "Selecció de vins",
+    "description": "Una cuidada carta de vins nacionals i internacionals, seleccionats per maridar perfectament amb els nostres plats.",
+    "button": "Veure vins"
+  },
+  "pickup": {
+    "title": "Comandes per Recollir",
+    "description": "Gaudeix dels nostres plats a casa. Fem comandes per recollir de dimecres a diumenge.",
+    "steps": [
+      { "text": "Fes la teva comanda amb antelació", "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" },
+      { "text": "Recull-la a l'hora que prefereixis", "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+      { "text": "Pagament en recollir", "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" }
+    ],
+    "button": "Fes la comanda"
+  },
+  "reserve": {
+    "title": "Reserva taula",
+    "name": "Nom",
+    "phone": "Telèfon",
+    "people": "Nombre de persones",
+    "persons": "persones",
+    "button": "Confirmar reserva"
+  },
+  "contact": {
+    "title": "Ubicació",
+    "address": "Carrer Exemple 123",
+    "city": "46001 València",
+    "phone": "Telèfon"
+  }
+}
