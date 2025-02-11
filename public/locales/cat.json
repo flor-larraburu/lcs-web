@@ -92,5 +92,15 @@
       "Crema catalana",
       "Mousse de chocolate"
     ]
+  },
+  "wines": {
+    "winesTitle": "Selección de Vinos",
+    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
+    "winesItems": [
+      "Vino tinto Rioja Reserva",
+      "Vino blanco Albariño",
+      "Cava Brut Nature",
+      "Vino rosado de la Tierra de Castilla"
+    ]
   }
 }

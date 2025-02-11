@@ -77,7 +77,7 @@ const Navbar = ({ language, onLanguageChange }: { language: string, onLanguageCh
           <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/about">
             {translations.navbar?.menu?.nuestraHistoria || "Nuestra Historia"}
           </Link>
-          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/contacto">
+          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/contact">
             {translations.navbar?.menu?.contacto || "Contacto"}
           </Link>
           <LanguageSelector language={language} onLanguageChange={onLanguageChange} />
@@ -116,7 +116,7 @@ const Navbar = ({ language, onLanguageChange }: { language: string, onLanguageCh
             </Link>
             <Link
               className="text-lg hover:text-[#CA819E] transition-colors"
-              href="/contacto"
+              href="/contact"
               onClick={() => setMenuOpen(false)}
             >
               {translations.navbar?.menu?.contacto || "Contacto"}

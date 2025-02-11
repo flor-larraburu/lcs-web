@@ -6,18 +6,14 @@ import Footer from "../common/footer";
 
 // Define las traducciones esperadas
 interface Translations {
-    menu: {
-        menuTitle: string;
-        starters: string;
-        mainCourses: string;
-        desserts: string;
-        startersItems: string[];
-        mainCoursesItems: string[];
-        dessertsItems: string[];
+    wines: {
+        winesTitle: string;
+        winesDescription: string;
+        winesItems: string[];
     };
 }
 
-const Carta: React.FC = () => {
+const Vinos: React.FC = () => {
     // Estado del idioma, inicializado solo después de montar el componente
     const [language, setLanguage] = useState<"es" | "en" | "ca">();
     const [translations, setTranslations] = useState<Translations | null>(null);
@@ -76,38 +72,14 @@ const Carta: React.FC = () => {
                         </div>
                     ) : (
                         <>
-                            <h1 className="text-4xl font-serif text-[#233462]">{translations.menu.menuTitle}</h1>
+                            <h1 className="text-4xl font-serif text-[#233462]">{translations.wines.winesTitle}</h1>
+                            <p className="text-lg text-[#233462] mt-4">{translations.wines.winesDescription}</p>
                             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
-                                <div>
-                                    <h2 className="text-2xl font-serif text-[#CA819E]">{translations.menu.starters}</h2>
-                                    <ul className="mt-4 space-y-2">
-                                        {translations.menu.startersItems.map((item, index) => (
-                                            <li key={index} className="text-lg text-[#233462]">
-                                                <span className="inline-block w-4">•</span> {item}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h2 className="text-2xl font-serif text-[#CA819E]">{translations.menu.mainCourses}</h2>
-                                    <ul className="mt-4 space-y-2">
-                                        {translations.menu.mainCoursesItems.map((item, index) => (
-                                            <li key={index} className="text-lg text-[#233462]">
-                                                <span className="inline-block w-4">•</span> {item}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h2 className="text-2xl font-serif text-[#CA819E]">{translations.menu.desserts}</h2>
-                                    <ul className="mt-4 space-y-2">
-                                        {translations.menu.dessertsItems.map((item, index) => (
-                                            <li key={index} className="text-lg text-[#233462]">
-                                                <span className="inline-block w-4">•</span> {item}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
+                                {translations.wines.winesItems.map((item, index) => (
+                                    <div key={index} className="bg-white shadow-lg p-6 rounded-lg">
+                                        <p className="text-lg text-[#233462]">{item}</p>
+                                    </div>
+                                ))}
                             </div>
                         </>
                     )}
@@ -118,4 +90,4 @@ const Carta: React.FC = () => {
     );
 };
 
-export default Carta;
+export default Vinos;
