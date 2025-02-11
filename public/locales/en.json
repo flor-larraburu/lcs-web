@@ -1,60 +1,96 @@
 {
   "navbar": {
-    "title": "La Casita de Sabino",
+    "title": "La esencia del Cantábrico en Valencia",
     "menu": {
-      "carta": "Menu",
-      "vinos": "Wines",
-      "nuestraHistoria": "Our Story",
-      "contacto": "Contact"
+      "carta": "Carta",
+      "vinos": "Vinos",
+      "nuestraHistoria": "Nuestra historia",
+      "contacto": "Contacto",
+      "reserve": "Reservar mesa"
+    },
+    "languageSelector": {
+      "es": "Español",
+      "en": "English",
+      "ca": "Català"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Ubicación",
+      "address": "Calle Ejemplo 123",
+      "city": "46001 Valencia",
+      "phone": "Teléfono"
+    },
+    "reserve": {
+      "title": "Reserva tu mesa",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "people": "Número de personas",
+      "persons": "personas",
+      "button": "Confirmar reserva"
     }
   },
   "home": {
-    "title": "The essence of the Cantabrian Sea in Valencia",
-    "description": "Fresh fish and seafood selected daily from the best northern markets",
-    "reserve": "Reserve a table"
-  },
-  "specialties": {
-    "title": "Our Specialties",
-    "specialties": ["Wild fish", "Fresh seafood", "Traditional recipes"],
-    "description": "Daily selection of top-quality products"
+    "description": "Pescados y mariscos frescos seleccionados diariamente de las mejores lonjas del norte",
+    "specialtiesTitle": "Nuestras Especialidades",
+    "specialties": [
+      "Pescados salvajes",
+      "Mariscos frescos",
+      "Recetas tradicionales"
+    ],
+    "specialtiesDescription": "Selección diaria de productos de máxima calidad",
+    "aboutTitle": "Conócenos",
+    "aboutText": "Desde 1995, La Casita de Sabino trae lo mejor del mar Cantábrico a Valencia. Nuestra pasión por el producto fresco y la cocina tradicional nos ha convertido en un referente de la gastronomía marinera en la Comunidad Valenciana.",
+    "aboutButton": "Descubre nuestra historia",
+    "menuTitle": "Nuestra Carta",
+    "menuDescription": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
+    "menuButton": "Ver carta",
+    "winesTitle": "Selección de Vinos",
+    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
+    "winesButton": "Ver vinos",
+    "pickupTitle": "Pedidos para Recoger",
+    "pickupDescription": "Disfruta de nuestros platos en casa. Realizamos pedidos para recoger de miércoles a domingo.",
+    "pickupSteps": [
+      {
+        "text": "Realiza tu pedido con antelación",
+        "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+      },
+      {
+        "text": "Recógelo a la hora que prefieras",
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+      },
+      {
+        "text": "Pago al recoger",
+        "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+      }
+    ],
+    "pickupButton": "Hacer pedido"
   },
   "about": {
-    "title": "About Us",
-    "text": "Since 1995, La Casita de Sabino has brought the best of the Cantabrian Sea to Valencia. Our passion for fresh produce and traditional cuisine has made us a benchmark for seafood gastronomy in the Valencian Community.",
-    "button": "Discover our story"
+    "title": "Sobre nosotros",
+    "text": "Bienvenido a La Casita de Sabino, un lugar donde el buen comer y el buen beber se encuentran.",
+    "description": "Nuestra historia comenzó con un sueño... todo lo que necesitas saber sobre nuestra historia y los valores que nos definen."
   },
   "menu": {
-    "title": "Our Menu",
-    "description": "Discover our selection of fresh fish and seafood of the day, prepared with the respect that Cantabrian products deserve.",
-    "button": "View menu"
-  },
-  "wines": {
-    "title": "Wine Selection",
-    "description": "A curated list of national and international wines, selected to perfectly pair with our dishes.",
-    "button": "View wines"
-  },
-  "pickup": {
-    "title": "Pickup Orders",
-    "description": "Enjoy our dishes at home. We offer pickup orders from Wednesday to Sunday.",
-    "steps": [
-      { "text": "Place your order in advance", "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" },
-      { "text": "Pick it up at your preferred time", "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-      { "text": "Pay upon pickup", "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" }
+    "title": "Nuestra Carta",
+    "description": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
+    "starters": "Entrantes",
+    "mainCourses": "Platos Principales",
+    "desserts": "Postres",
+    "startersItems": [
+      "Croquetas de jamón ibérico",
+      "Ensalada de temporada",
+      "Tartar de atún"
     ],
-    "button": "Place order"
-  },
-  "reserve": {
-    "title": "Reserve your table",
-    "name": "Name",
-    "phone": "Phone",
-    "people": "Number of people",
-    "persons": "people",
-    "button": "Confirm reservation"
-  },
-  "contact": {
-    "title": "Location",
-    "address": "Example Street 123",
-    "city": "46001 Valencia",
-    "phone": "Phone"
+    "mainCoursesItems": [
+      "Filete de ternera con salsa de trufa",
+      "Paella de mariscos",
+      "Risotto de setas"
+    ],
+    "dessertsItems": [
+      "Tarta de queso con frutos rojos",
+      "Crema catalana",
+      "Mousse de chocolate"
+    ]
   }
 }

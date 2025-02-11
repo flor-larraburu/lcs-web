@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import Head from "next/head";
-import Navbar from "../common/navbar";
 import { Footer } from "react-day-picker";
+import { translations } from "../page";
+import Navbar from "../common/navbar";
 
 const About = () => {
   const [language, setLanguage] = useState<keyof typeof translations>("es");
@@ -31,7 +32,7 @@ const About = () => {
                 {translations[language].aboutTitle}
               </h2>
               <p className="text-gray-700 mb-8">{translations[language].aboutText}</p>
-              <p className="mb-8">{translations[language].aboutDescription}</p>
+              <p className="mb-8">{translations[language].reservePeople}</p>
             </div>
           </section>
         </main>

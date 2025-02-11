@@ -68,13 +68,13 @@ const Navbar = ({ language, onLanguageChange }: { language: string, onLanguageCh
 
         {/* Enlaces de navegación (versión escritorio) */}
         <div className="hidden md:flex gap-8 items-center">
-          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/carta">
+          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/menu">
             {translations.navbar?.menu?.carta || "Carta"}
           </Link>
-          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/vinos">
+          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/wines">
             {translations.navbar?.menu?.vinos || "Vinos"}
           </Link>
-          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/nuestra-historia">
+          <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/about">
             {translations.navbar?.menu?.nuestraHistoria || "Nuestra Historia"}
           </Link>
           <Link className="text-lg hover:text-[#CA819E] transition-colors" href="/contacto">
@@ -95,21 +95,21 @@ const Navbar = ({ language, onLanguageChange }: { language: string, onLanguageCh
           <div className="flex flex-col gap-4 p-8">
             <Link
               className="text-lg hover:text-[#CA819E] transition-colors"
-              href="/carta"
+              href="/menu"
               onClick={() => setMenuOpen(false)}
             >
               {translations.navbar?.menu?.carta || "Carta"}
             </Link>
             <Link
               className="text-lg hover:text-[#CA819E] transition-colors"
-              href="/vinos"
+              href="/wines"
               onClick={() => setMenuOpen(false)}
             >
               {translations.navbar?.menu?.vinos || "Vinos"}
             </Link>
             <Link
               className="text-lg hover:text-[#CA819E] transition-colors"
-              href="/nuestra-historia"
+              href="/about"
               onClick={() => setMenuOpen(false)}
             >
               {translations.navbar?.menu?.nuestraHistoria || "Nuestra Historia"}

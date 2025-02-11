@@ -65,5 +65,32 @@
       }
     ],
     "pickupButton": "Hacer pedido"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "text": "Bienvenido a La Casita de Sabino, un lugar donde el buen comer y el buen beber se encuentran.",
+    "description": "Nuestra historia comenzó con un sueño... todo lo que necesitas saber sobre nuestra historia y los valores que nos definen."
+  },
+  "menu": {
+    "title": "Nuestra Carta",
+    "description": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
+    "starters": "Entrantes",
+    "mainCourses": "Platos Principales",
+    "desserts": "Postres",
+    "startersItems": [
+      "Croquetas de jamón ibérico",
+      "Ensalada de temporada",
+      "Tartar de atún"
+    ],
+    "mainCoursesItems": [
+      "Filete de ternera con salsa de trufa",
+      "Paella de mariscos",
+      "Risotto de setas"
+    ],
+    "dessertsItems": [
+      "Tarta de queso con frutos rojos",
+      "Crema catalana",
+      "Mousse de chocolate"
+    ]
   }
 }
