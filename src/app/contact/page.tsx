@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import { useState, useEffect } from "react";
 import Navbar from "../common/navbar";
-import Footer from "../common/footer"; // Asegúrate de tener este componente en tu proyecto
+import Footer from "../common/footer";
 
 interface Translations {
   footer?: {
@@ -38,50 +38,50 @@ const ContactPage = () => {
       }
     }
     fetchTranslations();
-  }, [language]); // Ahora cambia dinámicamente cuando el idioma cambia
+  }, [language]);
 
   const contact = translations?.footer?.contact;
   const reserve = translations?.footer?.reserve;
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar language={language} onLanguageChange={(lang) => setLanguage(lang as "es" | "en" | "ca")} />
       
-      <main className="flex-grow flex flex-col items-center justify-center p-6 bg-gray-100 overflow-y-auto">
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
+      <main className="flex-grow flex flex-col items-center justify-center px-6 py-12">
+        <h1 className="text-5xl font-serif italic text-[#233462] text-center mb-10">
           {contact?.title || "Contacto"}
         </h1>
-        <div className="w-full max-w-2xl bg-white shadow-lg rounded-2xl p-6">
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold text-gray-700">Dirección</h2>
-            <p className="text-gray-600">{contact?.address}</p>
-            <p className="text-gray-600">{contact?.city}</p>
+        <div className="w-full max-w-3xl bg-white shadow-xl rounded-xl p-8 border border-gray-200">
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-2">Dirección</h2>
+            <p className="text-gray-600 text-lg">{contact?.address}</p>
+            <p className="text-gray-600 text-lg">{contact?.city}</p>
           </div>
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold text-gray-700">Teléfono</h2>
-            <p className="text-gray-600">{contact?.phone}</p>
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-2">Teléfono</h2>
+            <p className="text-gray-600 text-lg">{contact?.phone}</p>
           </div>
-          <div className="border-t pt-6 mt-6">
-            <h2 className="text-xl font-semibold text-gray-700">{reserve?.title}</h2>
-            <form className="mt-4 space-y-4">
+          <div className="border-t pt-8 mt-8">
+            <h2 className="text-2xl font-semibold text-gray-800">{reserve?.title}</h2>
+            <form className="mt-6 space-y-5">
               <input
                 type="text"
                 placeholder={reserve?.name}
-                className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 text-lg"
               />
               <input
                 type="tel"
                 placeholder={reserve?.phone}
-                className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 text-lg"
               />
               <input
                 type="number"
                 placeholder={reserve?.people}
-                className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 text-lg"
               />
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+                className="w-full bg-blue-600 text-white py-3 text-lg rounded-lg hover:bg-blue-700 transition"
               >
                 {reserve?.button}
               </button>
@@ -89,7 +89,6 @@ const ContactPage = () => {
           </div>
         </div>
       </main>
-
       <Footer />
     </div>
   );

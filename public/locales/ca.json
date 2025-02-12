@@ -71,27 +71,72 @@
     "text": "Bienvenido a La Casita de Sabino, un lugar donde el buen comer y el buen beber se encuentran.",
     "description": "Nuestra historia comenzó con un sueño... todo lo que necesitas saber sobre nuestra historia y los valores que nos definen."
   },
-  "menu": {
-    "title": "Nuestra Carta",
-    "description": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
-    "starters": "Entrantes",
-    "mainCourses": "Platos Principales",
-    "desserts": "Postres",
-    "startersItems": [
-      "Croquetas de jamón ibérico",
-      "Ensalada de temporada",
-      "Tartar de atún"
-    ],
-    "mainCoursesItems": [
-      "Filete de ternera con salsa de trufa",
-      "Paella de mariscos",
-      "Risotto de setas"
-    ],
-    "dessertsItems": [
-      "Tarta de queso con frutos rojos",
-      "Crema catalana",
-      "Mousse de chocolate"
-    ]
+"menu": {
+    "menuTitle": "Nostra Carta",
+    "starters": {
+      "title": "Las Entradas de Sabino",
+      "items": [
+        "GILDA DEL NORTE unidad (4, 12) - 4€",
+        "ANCHOA EN SALAZÓN SOBRE TOSTADA Y SU EMULSIÓN unidad (4, 1, 3, 7, 10) - 4€",
+        "NAVAJA GALLEGA (14) - 20€",
+        "ALMEJAS A LA SARTÉN (14) - 37€",
+        "BERBERECHO GALLEGO (14) - 22€",
+        "OSTRA GALLEGA SUPERIOR unidad (14) - 4.5€",
+        "COLA DE GAMBA ALISTADA AL AJILLO (2) - 14€",
+        "PULPO ASADO CON PURÉ DE PATATAS (2, 7) - 22€"
+      ]
+    },
+    "wildFish": {
+      "title": "Pescados Salvajes",
+      "items": [
+        "RODABALLO (4, 12) - 85€/Kg",
+        "REY (4, 12) - 140€/Kg",
+        "MERO (4, 12) - 75€/Kg",
+        "MERLUZA DE PINCHO (4, 12) - 60€/Kg",
+        "CABRA DE ALTURA (4, 12) - 66€/Kg",
+        "SAN MARTÍN (4, 12) - 60€/Kg",
+        "MACHOTE (4, 12) - 66€/Kg"
+      ]
+    },
+    "seasonalStarters": {
+      "title": "Entrantes de temporada",
+      "items": [
+        "ENSALADA DE BOGAVANTE (2, 3, 12) - 29€",
+        "TOMATE DE LA HUERTA CON VENTRESCA, CEBOLLA TIERNA, MORADA Y PIPARRA (4, 12) - 22€",
+        "TERNERA CON ESENCIA MEDITERRÁNEA (1, 3, 4, 7, 10) - 15€",
+        "MENESTRA DE VERDURAS (1, 7) - 12€",
+        "ALCACHOFAS CON GAMBAS Y SALSA DE CRUSTÁCEOS (2, 12, 14) - 16€",
+        "PIMIENTO DE PIQUILLO RELLENO DE FRUTOS DEL MAR – 1 unidad (1, 4, 2, 7) - 4€"
+      ]
+    },
+    "otherProposals": {
+      "title": "Otras Propuestas",
+      "items": [
+        "HUEVOS CON BOGAVANTE SOBRE PATATAS PAJA (2, 3) - 36€",
+        "BACALAO AJOARRIERO O PIL-PIL (4) - 30€",
+        "KOKOTXAS DE MERLUZA AL PIL-PIL (4) - 36€",
+        "SEPIA SOBRE TERCIOPELO DE HUMMUS - 15€",
+        "SALMÓN AHUMADO SOBRE MANTO DE BETABEL Y YOGUR GRIEGO (4, 7) - 15€",
+        "SOPA DE PESCADO (1, 2, 4, 7, 12, 14) - 16€"
+      ]
+    },
+    "meats": {
+      "title": "Carnes",
+      "items": [
+        "SOLOMILLO CON SALSA DE NATA Y SETAS, Y PURÉ DE PATATAS (1,7) - 24€",
+        "STEAK TARTAR (1, 3, 12) - 24€",
+        "COCHINILLO CONFITADO A LA VAINILLA, SOBRE PURÉ DE MANZANA (7, 12) - 22€"
+      ]
+    },
+    "sideDishes": {
+      "title": "Guarniciones",
+      "items": [
+        "PATATAS FRITAS - 7€",
+        "PIMIENTOS ROJOS ASADOS - 7€",
+        "VERDURAS SALTEADAS CON SALSA MERY - 7€",
+        "SERVICIO DE PAN (1) (por comensal) - 3€"
+      ]
+    }
   },
   "wines": {
     "winesTitle": "Selección de Vinos",
