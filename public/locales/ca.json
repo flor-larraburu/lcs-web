@@ -1,12 +1,12 @@
 {
   "navbar": {
-    "title": "La esencia del Cantábrico en Valencia",
+    "title": "L'essència del Cantàbric a València",
     "menu": {
       "carta": "Carta",
-      "vinos": "Vinos",
-      "nuestraHistoria": "Nuestra historia",
-      "contacto": "Contacto",
-      "reserve": "Reservar mesa"
+      "vinos": "Vins",
+      "nuestraHistoria": "La nostra història",
+      "contacto": "Contacte",
+      "reserve": "Reservar taula"
     },
     "languageSelector": {
       "es": "Español",
@@ -16,136 +16,126 @@
   },
   "footer": {
     "contact": {
-      "title": "Ubicación",
-      "address": "Calle Ejemplo 123",
-      "city": "46001 Valencia",
-      "phone": "Teléfono"
+      "title": "Ubicació",
+      "address": "Carrer Exemple 123",
+      "city": "46001 València",
+      "phone": "Telèfon"
     },
     "reserve": {
-      "title": "Reserva tu mesa",
-      "name": "Nombre",
-      "phone": "Teléfono",
-      "people": "Número de personas",
-      "persons": "personas",
+      "title": "Reserva la teva taula",
+      "name": "Nom",
+      "phone": "Telèfon",
+      "people": "Nombre de persones",
+      "persons": "persones",
       "button": "Confirmar reserva"
     }
   },
   "home": {
-    "description": "Pescados y mariscos frescos seleccionados diariamente de las mejores lonjas del norte",
-    "specialtiesTitle": "Nuestras Especialidades",
+    "description": "Peixos i mariscs frescos seleccionats diàriament de les millors llotges del nord",
+    "specialtiesTitle": "Les Nostres Especialitats",
     "specialties": [
-      "Pescados salvajes",
-      "Mariscos frescos",
-      "Recetas tradicionales"
+      "Peixos salvatges",
+      "Mariscs frescos",
+      "Receptes tradicionals"
     ],
-    "specialtiesDescription": "Selección diaria de productos de máxima calidad",
-    "aboutTitle": "Conócenos",
-    "aboutText": "Desde 1995, La Casita de Sabino trae lo mejor del mar Cantábrico a Valencia. Nuestra pasión por el producto fresco y la cocina tradicional nos ha convertido en un referente de la gastronomía marinera en la Comunidad Valenciana.",
-    "aboutButton": "Descubre nuestra historia",
-    "menuTitle": "Nuestra Carta",
-    "menuDescription": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
-    "menuButton": "Ver carta",
-    "winesTitle": "Selección de Vinos",
-    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
-    "winesButton": "Ver vinos",
-    "pickupTitle": "Pedidos para Recoger",
-    "pickupDescription": "Disfruta de nuestros platos en casa. Realizamos pedidos para recoger de miércoles a domingo.",
+    "specialtiesDescription": "Selecció diària de productes de màxima qualitat",
+    "aboutTitle": "Coneix-nos",
+    "aboutText": "Des de 1995, La Casita de Sabino porta el millor del mar Cantàbric a València. La nostra passió pel producte fresc i la cuina tradicional ens ha convertit en un referent de la gastronomia marinera a la Comunitat Valenciana.",
+    "aboutButton": "Descobreix la nostra història",
+    "menuTitle": "La nostra Carta",
+    "menuDescription": "Descobreix la nostra selecció de peixos i mariscs frescos del dia, preparats amb el respecte que mereix el producte del Cantàbric.",
+    "menuButton": "Veure carta",
+    "winesTitle": "Selecció de Vins",
+    "winesDescription": "Una acurada carta de vins nacionals i internacionals, seleccionats per maridar perfectament amb els nostres plats.",
+    "winesButton": "Veure vins",
+    "pickupTitle": "Comandes per Recollir",
+    "pickupDescription": "Gaudeix dels nostres plats a casa. Fem comandes per recollir de dimecres a diumenge.",
     "pickupSteps": [
       {
-        "text": "Realiza tu pedido con antelación",
+        "text": "Fes la teva comanda amb antelació",
         "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
       },
       {
-        "text": "Recógelo a la hora que prefieras",
+        "text": "Recull-la a l'hora que prefereixis",
         "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
       },
       {
-        "text": "Pago al recoger",
+        "text": "Pagament en recollir",
         "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
       }
     ],
-    "pickupButton": "Hacer pedido"
+    "pickupButton": "Fer comanda"
   },
   "about": {
-    "title": "Sobre nosotros",
-    "text": "Bienvenido a La Casita de Sabino, un lugar donde el buen comer y el buen beber se encuentran.",
-    "description": "Nuestra historia comenzó con un sueño... todo lo que necesitas saber sobre nuestra historia y los valores que nos definen."
+    "title": "Sobre nosaltres",
+    "text": "Benvingut a La Casita de Sabino, un lloc on el bon menjar i el bon beure es troben.",
+    "description": "La nostra història va començar amb un somni... tot el que necessites saber sobre la nostra història i els valors que ens defineixen."
   },
-"menu": {
-    "menuTitle": "Nostra Carta",
+  "menu": {
+    "menuTitle": "La nostra Carta",
     "starters": {
-      "title": "Las Entradas de Sabino",
+      "title": "Les Entrades de Sabino",
       "items": [
-        "GILDA DEL NORTE unidad (4, 12) - 4€",
-        "ANCHOA EN SALAZÓN SOBRE TOSTADA Y SU EMULSIÓN unidad (4, 1, 3, 7, 10) - 4€",
-        "NAVAJA GALLEGA (14) - 20€",
-        "ALMEJAS A LA SARTÉN (14) - 37€",
-        "BERBERECHO GALLEGO (14) - 22€",
-        "OSTRA GALLEGA SUPERIOR unidad (14) - 4.5€",
-        "COLA DE GAMBA ALISTADA AL AJILLO (2) - 14€",
-        "PULPO ASADO CON PURÉ DE PATATAS (2, 7) - 22€"
+        "GILDA DEL NORD unitat (4, 12) - 4€",
+        "ANXOVA EN SALAÓ SOBRE TOSTADA I LA SEVA EMULSIÓ unitat (4, 1, 3, 7, 10) - 4€",
+        "NAVALLA GALLEGA (14) - 20€",
+        "CLOÏSSES A LA PAELLA (14) - 37€",
+        "BERBEREC GALLEC (14) - 22€",
+        "OSTRA GALLEGA SUPERIOR unitat (14) - 4.5€",
+        "CUA DE GAMBA ALISTADA AL ALL I OLI (2) - 14€",
+        "POP A LA BRASA AMB PURÉ DE PATATES (2, 7) - 22€"
       ]
     },
     "wildFish": {
-      "title": "Pescados Salvajes",
+      "title": "Peixos Salvatges",
       "items": [
         "RODABALLO (4, 12) - 85€/Kg",
-        "REY (4, 12) - 140€/Kg",
+        "REI (4, 12) - 140€/Kg",
         "MERO (4, 12) - 75€/Kg",
-        "MERLUZA DE PINCHO (4, 12) - 60€/Kg",
-        "CABRA DE ALTURA (4, 12) - 66€/Kg",
-        "SAN MARTÍN (4, 12) - 60€/Kg",
+        "LLUÇ DE PINXO (4, 12) - 60€/Kg",
+        "CABRA D'ALÇADA (4, 12) - 66€/Kg",
+        "SANT MARTÍ (4, 12) - 60€/Kg",
         "MACHOTE (4, 12) - 66€/Kg"
       ]
     },
     "seasonalStarters": {
-      "title": "Entrantes de temporada",
+      "title": "Entrants de temporada",
       "items": [
-        "ENSALADA DE BOGAVANTE (2, 3, 12) - 29€",
-        "TOMATE DE LA HUERTA CON VENTRESCA, CEBOLLA TIERNA, MORADA Y PIPARRA (4, 12) - 22€",
-        "TERNERA CON ESENCIA MEDITERRÁNEA (1, 3, 4, 7, 10) - 15€",
-        "MENESTRA DE VERDURAS (1, 7) - 12€",
-        "ALCACHOFAS CON GAMBAS Y SALSA DE CRUSTÁCEOS (2, 12, 14) - 16€",
-        "PIMIENTO DE PIQUILLO RELLENO DE FRUTOS DEL MAR – 1 unidad (1, 4, 2, 7) - 4€"
+        "AMANIDA DE LLAMÀNTOL (2, 3, 12) - 29€",
+        "TOMÀQUET DE L’HORTA AMB VENTRESCA, CEBA TENDRA, MORADA I PIPARRA (4, 12) - 22€",
+        "VEDILLA AMB ESSÈNCIA MEDITERRÀNIA (1, 3, 4, 7, 10) - 15€",
+        "MENESTRA DE VERDURES (1, 7) - 12€",
+        "CARXOFES AMB GAMBES I SALSA DE CRUSTACIS (2, 12, 14) - 16€",
+        "PEBROTS DEL PIQUILLO FARCITS DE FRUITS DEL MAR – 1 unitat (1, 4, 2, 7) - 4€"
       ]
     },
     "otherProposals": {
-      "title": "Otras Propuestas",
+      "title": "Altres Propostes",
       "items": [
-        "HUEVOS CON BOGAVANTE SOBRE PATATAS PAJA (2, 3) - 36€",
-        "BACALAO AJOARRIERO O PIL-PIL (4) - 30€",
-        "KOKOTXAS DE MERLUZA AL PIL-PIL (4) - 36€",
-        "SEPIA SOBRE TERCIOPELO DE HUMMUS - 15€",
-        "SALMÓN AHUMADO SOBRE MANTO DE BETABEL Y YOGUR GRIEGO (4, 7) - 15€",
-        "SOPA DE PESCADO (1, 2, 4, 7, 12, 14) - 16€"
+        "OUS AMB LLAMÀNTOL SOBRE PATATES PALLA (2, 3) - 36€",
+        "BACALLÀ AL AJOARRIERO O PIL-PIL (4) - 30€",
+        "KOKOTXES DE LLUÇ AL PIL-PIL (4) - 36€",
+        "SÍPIA SOBRE TERCIOPELI D'HUMMUS - 15€",
+        "SALMÓ FUMAT SOBRE MANTA DE REMOLATXA I IOGURT GREC (4, 7) - 15€",
+        "SOPA DE PEIX (1, 2, 4, 7, 12, 14) - 16€"
       ]
     },
     "meats": {
-      "title": "Carnes",
+      "title": "Carns",
       "items": [
-        "SOLOMILLO CON SALSA DE NATA Y SETAS, Y PURÉ DE PATATAS (1,7) - 24€",
+        "FILET AMB SALSA DE NATA I BOLETS, I PURÉ DE PATATES (1,7) - 24€",
         "STEAK TARTAR (1, 3, 12) - 24€",
-        "COCHINILLO CONFITADO A LA VAINILLA, SOBRE PURÉ DE MANZANA (7, 12) - 22€"
+        "GARRÍ CONFITAT A LA VAINILLA, SOBRE PURÉ DE POMA (7, 12) - 22€"
       ]
     },
     "sideDishes": {
-      "title": "Guarniciones",
+      "title": "Guarnicions",
       "items": [
-        "PATATAS FRITAS - 7€",
-        "PIMIENTOS ROJOS ASADOS - 7€",
-        "VERDURAS SALTEADAS CON SALSA MERY - 7€",
-        "SERVICIO DE PAN (1) (por comensal) - 3€"
+        "PATATES FREGIDES - 7€",
+        "PEBROTS VERMELLS ESCALIVATS - 7€",
+        "VERDURES SALTEJADES AMB SALSA MERY - 7€",
+        "SERVEI DE PA (1) (per comensal) - 3€"
       ]
     }
-  },
-  "wines": {
-    "winesTitle": "Selección de Vinos",
-    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
-    "winesItems": [
-      "Vino tinto Rioja Reserva",
-      "Vino blanco Albariño",
-      "Cava Brut Nature",
-      "Vino rosado de la Tierra de Castilla"
-    ]
   }
 }

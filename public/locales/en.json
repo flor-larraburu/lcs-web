@@ -1,151 +1,151 @@
 {
   "navbar": {
-    "title": "La esencia del Cantábrico en Valencia",
+    "title": "The essence of the Cantabrian Sea in Valencia",
     "menu": {
-      "carta": "Carta",
-      "vinos": "Vinos",
-      "nuestraHistoria": "Nuestra historia",
-      "contacto": "Contacto",
-      "reserve": "Reservar mesa"
+      "carta": "Menu",
+      "vinos": "Wines",
+      "nuestraHistoria": "Our Story",
+      "contacto": "Contact",
+      "reserve": "Reserve a table"
     },
     "languageSelector": {
-      "es": "Español",
+      "es": "Spanish",
       "en": "English",
-      "ca": "Català"
+      "ca": "Catalan"
     }
   },
   "footer": {
     "contact": {
-      "title": "Ubicación",
-      "address": "Calle Ejemplo 123",
+      "title": "Location",
+      "address": "Example Street 123",
       "city": "46001 Valencia",
-      "phone": "Teléfono"
+      "phone": "Phone"
     },
     "reserve": {
-      "title": "Reserva tu mesa",
-      "name": "Nombre",
-      "phone": "Teléfono",
-      "people": "Número de personas",
-      "persons": "personas",
-      "button": "Confirmar reserva"
+      "title": "Reserve Your Table",
+      "name": "Name",
+      "phone": "Phone",
+      "people": "Number of people",
+      "persons": "people",
+      "button": "Confirm Reservation"
     }
   },
   "home": {
-    "description": "Pescados y mariscos frescos seleccionados diariamente de las mejores lonjas del norte",
-    "specialtiesTitle": "Nuestras Especialidades",
+    "description": "Fresh fish and seafood selected daily from the best markets in the north",
+    "specialtiesTitle": "Our Specialties",
     "specialties": [
-      "Pescados salvajes",
-      "Mariscos frescos",
-      "Recetas tradicionales"
+      "Wild fish",
+      "Fresh seafood",
+      "Traditional recipes"
     ],
-    "specialtiesDescription": "Selección diaria de productos de máxima calidad",
-    "aboutTitle": "Conócenos",
-    "aboutText": "Desde 1995, La Casita de Sabino trae lo mejor del mar Cantábrico a Valencia. Nuestra pasión por el producto fresco y la cocina tradicional nos ha convertido en un referente de la gastronomía marinera en la Comunidad Valenciana.",
-    "aboutButton": "Descubre nuestra historia",
-    "menuTitle": "Nuestra Carta",
-    "menuDescription": "Descubre nuestra selección de pescados y mariscos frescos del día, preparados con el respeto que merece el producto del Cantábrico.",
-    "menuButton": "Ver carta",
-    "winesTitle": "Selección de Vinos",
-    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
-    "winesButton": "Ver vinos",
-    "pickupTitle": "Pedidos para Recoger",
-    "pickupDescription": "Disfruta de nuestros platos en casa. Realizamos pedidos para recoger de miércoles a domingo.",
+    "specialtiesDescription": "Daily selection of the highest quality products",
+    "aboutTitle": "Get to Know Us",
+    "aboutText": "Since 1995, La Casita de Sabino has brought the best of the Cantabrian Sea to Valencia. Our passion for fresh products and traditional cuisine has made us a reference in seafood gastronomy in the Valencian Community.",
+    "aboutButton": "Discover our story",
+    "menuTitle": "Our Menu",
+    "menuDescription": "Discover our selection of fresh fish and seafood of the day, prepared with the respect that Cantabrian products deserve.",
+    "menuButton": "View Menu",
+    "winesTitle": "Wine Selection",
+    "winesDescription": "A carefully curated list of national and international wines, selected to perfectly pair with our dishes.",
+    "winesButton": "View Wines",
+    "pickupTitle": "Takeaway Orders",
+    "pickupDescription": "Enjoy our dishes at home. We offer takeaway orders from Wednesday to Sunday.",
     "pickupSteps": [
       {
-        "text": "Realiza tu pedido con antelación",
+        "text": "Place your order in advance",
         "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
       },
       {
-        "text": "Recógelo a la hora que prefieras",
+        "text": "Pick it up at your preferred time",
         "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
       },
       {
-        "text": "Pago al recoger",
+        "text": "Pay upon pickup",
         "icon": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
       }
     ],
-    "pickupButton": "Hacer pedido"
+    "pickupButton": "Place Order"
   },
   "about": {
-    "title": "Sobre nosotros",
-    "text": "Bienvenido a La Casita de Sabino, un lugar donde el buen comer y el buen beber se encuentran.",
-    "description": "Nuestra historia comenzó con un sueño... todo lo que necesitas saber sobre nuestra historia y los valores que nos definen."
+    "title": "About Us",
+    "text": "Welcome to La Casita de Sabino, a place where good food and fine wine come together.",
+    "description": "Our story began with a dream... everything you need to know about our history and the values that define us."
   },
-"menu": {
-    "menuTitle": "Nuestra Carta",
+  "menu": {
+    "menuTitle": "Our Menu",
     "starters": {
-      "title": "Las Entradas de Sabino",
+      "title": "Sabino's Starters",
       "items": [
-        "GILDA DEL NORTE unidad (4, 12) - 4€",
-        "ANCHOA EN SALAZÓN SOBRE TOSTADA Y SU EMULSIÓN unidad (4, 1, 3, 7, 10) - 4€",
-        "NAVAJA GALLEGA (14) - 20€",
-        "ALMEJAS A LA SARTÉN (14) - 37€",
-        "BERBERECHO GALLEGO (14) - 22€",
-        "OSTRA GALLEGA SUPERIOR unidad (14) - 4.5€",
-        "COLA DE GAMBA ALISTADA AL AJILLO (2) - 14€",
-        "PULPO ASADO CON PURÉ DE PATATAS (2, 7) - 22€"
+        "GILDA DEL NORTE per unit (4, 12) - 4€",
+        "SALT-CURED ANCHOVY ON TOAST WITH ITS EMULSION per unit (4, 1, 3, 7, 10) - 4€",
+        "GALICIAN RAZOR CLAM (14) - 20€",
+        "PAN-FRIED CLAMS (14) - 37€",
+        "GALICIAN COCKLES (14) - 22€",
+        "PREMIUM GALICIAN OYSTER per unit (14) - 4.5€",
+        "GARLIC SHRIMP TAIL (2) - 14€",
+        "ROASTED OCTOPUS WITH MASHED POTATOES (2, 7) - 22€"
       ]
     },
     "wildFish": {
-      "title": "Pescados Salvajes",
+      "title": "Wild Fish",
       "items": [
-        "RODABALLO (4, 12) - 85€/Kg",
-        "REY (4, 12) - 140€/Kg",
-        "MERO (4, 12) - 75€/Kg",
-        "MERLUZA DE PINCHO (4, 12) - 60€/Kg",
-        "CABRA DE ALTURA (4, 12) - 66€/Kg",
-        "SAN MARTÍN (4, 12) - 60€/Kg",
-        "MACHOTE (4, 12) - 66€/Kg"
+        "TURBOT (4, 12) - 85€/Kg",
+        "KINGFISH (4, 12) - 140€/Kg",
+        "GROUPER (4, 12) - 75€/Kg",
+        "LINE-CAUGHT HAKE (4, 12) - 60€/Kg",
+        "DEEP-SEA SCORPIONFISH (4, 12) - 66€/Kg",
+        "JOHN DORY (4, 12) - 60€/Kg",
+        "MEAGRE (4, 12) - 66€/Kg"
       ]
     },
     "seasonalStarters": {
-      "title": "Entrantes de temporada",
+      "title": "Seasonal Starters",
       "items": [
-        "ENSALADA DE BOGAVANTE (2, 3, 12) - 29€",
-        "TOMATE DE LA HUERTA CON VENTRESCA, CEBOLLA TIERNA, MORADA Y PIPARRA (4, 12) - 22€",
-        "TERNERA CON ESENCIA MEDITERRÁNEA (1, 3, 4, 7, 10) - 15€",
-        "MENESTRA DE VERDURAS (1, 7) - 12€",
-        "ALCACHOFAS CON GAMBAS Y SALSA DE CRUSTÁCEOS (2, 12, 14) - 16€",
-        "PIMIENTO DE PIQUILLO RELLENO DE FRUTOS DEL MAR – 1 unidad (1, 4, 2, 7) - 4€"
+        "LOBSTER SALAD (2, 3, 12) - 29€",
+        "GARDEN TOMATO WITH BELLY TUNA, SPRING ONION, RED ONION, AND PICKLED PEPPER (4, 12) - 22€",
+        "BEEF WITH MEDITERRANEAN ESSENCE (1, 3, 4, 7, 10) - 15€",
+        "VEGETABLE MEDLEY (1, 7) - 12€",
+        "ARTICHOKES WITH SHRIMP AND CRUSTACEAN SAUCE (2, 12, 14) - 16€",
+        "PIQUILLO PEPPER STUFFED WITH SEAFOOD – 1 unit (1, 4, 2, 7) - 4€"
       ]
     },
     "otherProposals": {
-      "title": "Otras Propuestas",
+      "title": "Other Dishes",
       "items": [
-        "HUEVOS CON BOGAVANTE SOBRE PATATAS PAJA (2, 3) - 36€",
-        "BACALAO AJOARRIERO O PIL-PIL (4) - 30€",
-        "KOKOTXAS DE MERLUZA AL PIL-PIL (4) - 36€",
-        "SEPIA SOBRE TERCIOPELO DE HUMMUS - 15€",
-        "SALMÓN AHUMADO SOBRE MANTO DE BETABEL Y YOGUR GRIEGO (4, 7) - 15€",
-        "SOPA DE PESCADO (1, 2, 4, 7, 12, 14) - 16€"
+        "EGGS WITH LOBSTER OVER SHOESTRING POTATOES (2, 3) - 36€",
+        "COD AJOARRIERO OR PIL-PIL (4) - 30€",
+        "HAKE CHEEKS IN PIL-PIL SAUCE (4) - 36€",
+        "CUTTLEFISH ON HUMMUS VELVET - 15€",
+        "SMOKED SALMON ON BEETROOT AND GREEK YOGURT (4, 7) - 15€",
+        "FISH SOUP (1, 2, 4, 7, 12, 14) - 16€"
       ]
     },
     "meats": {
-      "title": "Carnes",
+      "title": "Meats",
       "items": [
-        "SOLOMILLO CON SALSA DE NATA Y SETAS, Y PURÉ DE PATATAS (1,7) - 24€",
-        "STEAK TARTAR (1, 3, 12) - 24€",
-        "COCHINILLO CONFITADO A LA VAINILLA, SOBRE PURÉ DE MANZANA (7, 12) - 22€"
+        "TENDERLOIN WITH CREAM AND MUSHROOM SAUCE, AND MASHED POTATOES (1,7) - 24€",
+        "STEAK TARTARE (1, 3, 12) - 24€",
+        "CONFIT SUCKLING PIG WITH VANILLA AND APPLE PUREE (7, 12) - 22€"
       ]
     },
     "sideDishes": {
-      "title": "Guarniciones",
+      "title": "Side Dishes",
       "items": [
-        "PATATAS FRITAS - 7€",
-        "PIMIENTOS ROJOS ASADOS - 7€",
-        "VERDURAS SALTEADAS CON SALSA MERY - 7€",
-        "SERVICIO DE PAN (1) (por comensal) - 3€"
+        "FRENCH FRIES - 7€",
+        "ROASTED RED PEPPERS - 7€",
+        "SAUTÉED VEGETABLES WITH MERY SAUCE - 7€",
+        "BREAD SERVICE (1) (per person) - 3€"
       ]
     }
   },
   "wines": {
-    "winesTitle": "Selección de Vinos",
-    "winesDescription": "Una cuidada carta de vinos nacionales e internacionales, seleccionados para maridar perfectamente con nuestros platos.",
+    "winesTitle": "Wine Selection",
+    "winesDescription": "A carefully curated list of national and international wines, selected to perfectly pair with our dishes.",
     "winesItems": [
-      "Vino tinto Rioja Reserva",
-      "Vino blanco Albariño",
-      "Cava Brut Nature",
-      "Vino rosado de la Tierra de Castilla"
+      "Rioja Reserva Red Wine",
+      "Albariño White Wine",
+      "Brut Nature Cava",
+      "Rosé Wine from Castilla"
     ]
   }
 }
